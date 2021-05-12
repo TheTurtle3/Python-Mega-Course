@@ -1,0 +1,1 @@
+day_temperatures = {'morning': (1.0, 2.0, 3.0), 'noon': (1.0, 2.0, 3.0), 'evening': (1.0, 2.0, 3.0)}

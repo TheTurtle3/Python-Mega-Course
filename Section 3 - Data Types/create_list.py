@@ -1,0 +1,1 @@
+temperatures = [1.5, 6, "word"]
