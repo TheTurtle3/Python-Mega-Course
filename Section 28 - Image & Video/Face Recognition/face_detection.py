@@ -2,7 +2,7 @@ import cv2
 
 face_cascade = cv2.CascadeClassifier("Section 28 - Image & Video\Face Recognition\haarcascade_frontalface_default.xml")
 
-img = cv2.imread("Section 28 - Image & Video\Face Recognition\news.jpg")
+img = cv2.imread("Section 28 - Image & Video\Face Recognition/news.jpg")
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.1, minNeighbors=5)
