@@ -1,5 +1,6 @@
 import mysql.connector
 
+# connects to ardit's dictionary database
 con = mysql.connector.connect(
     user = "ardit700_student",
     password = "ardit700_student",
@@ -9,7 +10,7 @@ con = mysql.connector.connect(
 
 cursor = con.cursor()
 
-query = cursor.execute("SELECT * FROM Dictionary WHERE Expression = 'inlay' ")
+query = cursor.execute("SELECT * FROM Dictionary WHERE Expression = 'line' ")
 results = cursor.fetchall()
 
 print(results)
