@@ -9,8 +9,10 @@ con = mysql.connector.connect(
     database = "ardit700_pm1database"
 )
 
+cursor = con.cursor()
+
 def func(user_word):
-    cursor = con.cursor()
+    # cursor = con.cursor()
 
     # a table to store userinput for SQL query
     # cursor.execute("CREATE TABLE DemoTable ")
